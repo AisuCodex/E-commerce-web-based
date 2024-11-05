@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LUXE - Luxury Fashion Store</title>
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header-content">
+          <div class="header-left">
+            <button class="menu-btn" id="menuBtn">
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <line x1="4" y1="12" x2="20" y2="12"></line>
+                <line x1="4" y1="6" x2="20" y2="6"></line>
+                <line x1="4" y1="18" x2="20" y2="18"></line>
+              </svg>
+            </button>
+            <a href="/" class="logo">FEAST</a>
+          </div>
+
+          <nav class="main-nav">
+            <a href="/fresh">Fresh</a>
+            <a href="/pantry">Pantry</a>
+            <a href="/beverages">Beverages</a>
+            <a href="/prepared">Prepared</a>
+            <a href="/deals">Deals</a>
+          </nav>
+
+          <div class="header-right">
+            <button class="icon-btn">
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <circle cx="11" cy="11" r="8"></circle>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+              </svg>
+            </button>
+            <button class="icon-btn cart-btn">
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <path
+                  d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"
+                ></path>
+                <line x1="3" y1="6" x2="21" y2="6"></line>
+                <path d="M16 10a4 4 0 0 1-8 0"></path>
+              </svg>
+              <span class="cart-count">0</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <!-- Hero Section -->
+      <section class="hero">
+        <div class="container">
+          <div class="hero-content">
+            <h1>unique & Delicious Burgers</h1>
+            <p>
+              Discover premium burgers and delicious taste delivered to your
+              door.
+            </p>
+            <button class="btn btn-primary">
+              Order Now
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <path d="M5 12h14M12 5l7 7-7 7" />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- Categories Grid -->
+      <section class="categories">
+        <div class="container">
+          <h2>Shop by Category</h2>
+          <div class="categories-grid">
+            <a href="/fresh" class="category-card">
+              <img src="../src/burger4.avif" />
+
+              <div class="category-overlay">
+                <h3>Delicious Burgers</h3>
+              </div>
+            </a>
+            <a href="/pantry" class="category-card">
+              <img src="../src/burger2.avif" />
+
+              <div class="category-overlay">
+                <h3>Affordable Burgers</h3>
+              </div>
+            </a>
+            <a href="/beverages" class="category-card">
+              <img src="../src/burger3.avif" />
+
+              <div class="category-overlay">
+                <h3>Flavorous Burgers</h3>
+              </div>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Featured Products -->
+      <section class="featured-products">
+        <div class="container">
+          <h2>Featured Products</h2>
+          <div class="products-grid">
+            <div class="product-card">
+              <div class="product-image">
+                <img src="../src/burger1.avif" />
+                <button class="add-to-cart-btn">
+                  <svg
+                    width="16"
+                    height="16"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <path
+                      d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"
+                    ></path>
+                    <line x1="3" y1="6" x2="21" y2="6"></line>
+                    <path d="M16 10a4 4 0 0 1-8 0"></path>
+                  </svg>
+                  Add to Cart
+                </button>
+              </div>
+              <div class="product-info">
+                <p class="product-category">Fresh Produce</p>
+                <h3>Fat Burger</h3>
+                <p class="product-price">$29.99</p>
+              </div>
+            </div>
+            <!-- More product cards... -->
+            <div class="product-card">
+              <div class="product-image">
+                <img src="../src/burger2.avif" alt="Organic Vegetables Box" />
+                <button class="add-to-cart-btn">
+                  <svg
+                    width="16"
+                    height="16"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <path
+                      d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"
+                    ></path>
+                    <line x1="3" y1="6" x2="21" y2="6"></line>
+                    <path d="M16 10a4 4 0 0 1-8 0"></path>
+                  </svg>
+                  Add to Cart
+                </button>
+              </div>
+              <div class="product-info">
+                <p class="product-category">Fresh Produce</p>
+                <h3>Fat Burger Dual</h3>
+                <p class="product-price">$29.99</p>
+              </div>
+            </div>
+
+            <div class="product-card">
+              <div class="product-image">
+                <img src="../src/burger3.avif" alt="Organic Vegetables Box" />
+                <button class="add-to-cart-btn">
+                  <svg
+                    width="16"
+                    height="16"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <path
+                      d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"
+                    ></path>
+                    <line x1="3" y1="6" x2="21" y2="6"></line>
+                    <path d="M16 10a4 4 0 0 1-8 0"></path>
+                  </svg>
+                  Add to Cart
+                </button>
+              </div>
+              <div class="product-info">
+                <p class="product-category">Fresh Produce</p>
+                <h3>Fat Small Burger</h3>
+                <p class="product-price">$29.99</p>
+              </div>
+            </div>
+
+            <div class="product-card">
+              <div class="product-image">
+                <img src="../src/burger4.avif" alt="Organic Vegetables Box" />
+                <button class="add-to-cart-btn">
+                  <svg
+                    width="16"
+                    height="16"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <path
+                      d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"
+                    ></path>
+                    <line x1="3" y1="6" x2="21" y2="6"></line>
+                    <path d="M16 10a4 4 0 0 1-8 0"></path>
+                  </svg>
+                  Add to Cart
+                </button>
+              </div>
+              <div class="product-info">
+                <p class="product-category">Fresh Produce</p>
+                <h3>Fat Special Burger</h3>
+                <p class="product-price">$29.99</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Newsletter -->
+      <section class="newsletter">
+        <div class="container">
+          <h2>Join Our Newsletter</h2>
+          <p>
+            Subscribe to get special offers, recipes, and exclusive deals on
+            premium ingredients.
+          </p>
+          <form id="newsletterForm" class="newsletter-form">
+            <input type="email" placeholder="Enter your email" required />
+            <button type="submit" class="btn">Subscribe</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-section">
+            <h3>About FEAST</h3>
+            <p>
+              Discover premium ingredients and gourmet food delivered fresh to
+              your door.
+            </p>
+          </div>
+
+          <div class="footer-section">
+            <h3>Customer Service</h3>
+            <ul>
+              <li><a href="/contact">Contact Us</a></li>
+              <li><a href="/shipping">Delivery Info</a></li>
+              <li><a href="/returns">Returns</a></li>
+              <li><a href="/faq">FAQ</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-section">
+            <h3>Quick Links</h3>
+            <ul>
+              <li><a href="/fresh">Fresh Arrivals</a></li>
+              <li><a href="/deals">Deals</a></li>
+              <li><a href="/recipes">Recipes</a></li>
+              <li><a href="/stores">Store Locator</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-section">
+            <h3>Follow Us</h3>
+            <div class="social-links">
+              <a href="https://instagram.com">
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                  <path
+                    d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"
+                  ></path>
+                  <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                </svg>
+              </a>
+              <a href="https://facebook.com">
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <path
+                    d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"
+                  ></path>
+                </svg>
+              </a>
+              <a href="https://twitter.com">
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <path
+                    d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"
+                  ></path>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p>&copy; 2024 FEAST. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="../src/js/script.js"></script>
+  </body>
+</html>
